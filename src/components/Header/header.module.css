@@ -1,0 +1,54 @@
+.Header {
+    width: 100%;
+    margin: 2em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 3px solid #F0F0F0;
+
+}
+
+.graphiClient {
+    margin: 0 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5em;
+    flex-wrap: wrap;
+
+}
+
+.ContainerGraphic {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em 2em;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloClients {
+    margin-bottom: 1em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.allUser {
+
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.totalClients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
