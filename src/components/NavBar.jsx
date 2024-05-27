@@ -16,11 +16,11 @@ const items = [
     {
         key: '1',
         icon: <UserOutlined />,
-        label: 'Clients',
+        label: 'Clientes',
         children: [
             {
                 key: '11',
-                label: <Link onClick={() => scrollToTop(380)} to="/clients">All</Link>,
+                label: <Link onClick={() => scrollToTop(380)} to="/clients">Todos</Link>,
             },
             {
                 key: '12',

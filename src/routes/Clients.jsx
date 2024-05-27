@@ -92,7 +92,7 @@ const Clients = () => {
     });
 
     const columns = [
-        { title: 'Name', dataIndex: 'name', width: '20%', ...getColumnSearchProps('name') },
+        { title: 'Nome', dataIndex: 'name', width: '20%', ...getColumnSearchProps('name') },
         { title: 'Local', dataIndex: 'address', width: '30%', ...getColumnSearchProps('address') },
         {
             title: 'Concentrador',
